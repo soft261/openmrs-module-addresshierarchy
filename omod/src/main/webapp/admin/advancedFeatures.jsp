@@ -35,7 +35,7 @@
 </tr>
 
 <tr>
-	<td class="tableCell"><nobr><input type="checkbox" name="updaterStarted" <c:if test="${updaterStarted}">checked</c:if>/> <spring:message code="addresshierarchy.admin.scheduleAddressToEntryMappings" arguments='<input type="text" name="repeatInterval" value="${repeatInterval}" size="6"/>' htmlEscape="false"/></nobr></td>
+	<td class="tableCell"><nobr><input type="checkbox" name="updaterStarted" <c:if test="${updaterStarted}">checked</c:if>/> <spring:message code="addresshierarchy.admin.scheduleAddressToEntryMappings" arguments='<input type="number" name="repeatInterval" value="${repeatInterval}" size="6"/>' htmlEscape="false"/></nobr></td>
 </tr>
 
 <tr>
